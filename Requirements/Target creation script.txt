@@ -1,0 +1,53 @@
+Create table CDW_SAPP_D_CUSTOMER<<Associate_ID>>(
+CUST_ID   Number(10) primary key NOT NULL
+CUST_F_NAME Varchar2(40) NOT NULL,
+CUST_M_NAME Varchar2(40),
+CUST_L_NAME Varchar2(40),
+CUST_CC_NO NUMBER(16),
+CUST_SSN  Number(9) NOT NULL,
+CUST_STREET  Varchar2(38),
+CUST_CITY  Varchar2(30) NOT NULL,
+CUST_STATE  Varchar2(30),
+CUST_COUNTRY Varchar2(30),
+CUST_ZIP NUMBER(7),
+CUST_PHONE Varchar2(12),
+CUST_EMAIL  Varchar2(40),
+);
+
+
+
+
+Create table CDW_SAPP_D_BRANCH<<Associate_ID>>(
+BRANCH_CODE Number (9) primary key NOT NULL,
+BRANCH_NAME varchar2 (25),
+BRANCH_STREET varchar2 (30),
+BRANCH_CITY varchar2 (30) NOT NULL,
+BRANCH_STATE varchar2 (30),
+BRANCH_ZIP Number (7),
+BRANCH_PHONE varchar2 (13)
+);
+
+
+
+Create table CDW_SAPP_D_TIME<<Associate_ID>>(
+TIMEID  Varchar2(8) primary key NOT NULL
+DAY Number(2) NOT NULL,
+MONTH  Number(2),
+QUARTER Varchar2(8),
+YEAR NUMBER(4) );
+
+
+
+
+Create table CDW_SAPP_F_CREDIT_CARD<<Associate_ID>>(
+CUST_CC_NO NUMBER(16),
+TIMEID  Varchar2(8),
+CUST_SSN   Number(10),
+CUST_F_NAME Varchar2(40),
+CUST_M_NAME Varchar2(40),
+CUST_L_NAME Varchar2(40),
+BRANCH_CODE Number (9) ,
+BRANCH_NAME varchar2 (25),
+TRANSACTION_TYPE varchar2 (30),
+TRANSACTION_VALUE number(20)
+)
