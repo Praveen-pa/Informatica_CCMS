@@ -1,0 +1,21 @@
+BRANCH_CODE,BRANCH_NAME,BRANCH_STREET,BRANCH_CITY,BRANCH_STATE,BRANCH_ZIP,BRANCH_PHONE
+123456789,Central Branch,Main Street,New York,NY,10001,1234567890
+234567890,Ridgewood Branch,Elm Avenue,Los Angeles,CA,90001,2345678912
+345678901,Lakeside Branch,Birch Lane,Chicago,IL,60601,3456789023
+456789012,Sunset Branch,Oak Boulevard,San Francisco,CA,94101,4567891234
+567890123,Meadow Branch,Cedar Drive,Seattle,WA,98101,5678901245
+678901234,Riverdale Branch,Walnut Drive,Austin,TX,73301,6789012356
+789012345,Hilltop Branch,Pine Road,Houston,TX,77001,7890123467
+890123456,Harbor Branch,Willow Lane,Philadelphia,PA,19101,8901234578
+321654987,Parkway Branch,Primrose Path,San Diego,CA,92101,3216549876
+876543219,Elmwood Branch,Twin Oaks Lane,Boston,MA,02101,8765432190
+765432198,Courtyard Branch,Goldenrod Avenue,Portland,OR,97201,7654321989
+543216789,Riverwalk Branch,Frosted Hill Path,Jacksonville,FL,32099,5432167892
+234890567,Lakeview Branch,Crimson Clover Lane,Denver,CO,80001,2348905678
+135792468,Highland Branch,Maple Boulevard,Miami,FL,33176,1357924681
+975318642,Sunrise Branch,Redwood Avenue,Memphis,TN,38101,9753186425
+864297531,Evergreen Branch,Pinecrest Drive,Indianapolis,IN,46201,8642975317
+963852741,Seaside Branch,Rainbow Drive,Albuquerque,NM,87101,9638527418
+741852963,Brookside Branch,Hickory Lane,Tampa,FL,33601,7418529634
+852369741,Golden Gate Branch,Hemlock Trail,Sacramento,CA,94203,8523697416
+963258741,Valleyview Branch,Riverbank Avenue,Charlotte,NC,28201,9632587415
