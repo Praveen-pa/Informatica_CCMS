@@ -1,0 +1,196 @@
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6014 : Initializing session [s_m_CCMS_Creditcard] at [Fri Mar 14 11:03:30 2025].
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6683 : Repository Name: [REP]
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6684 : Server Name: [IS]
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6686 : Folder: [CCMS]
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6685 : Workflow: [WF_CCMS_CC] Run Instance Name: [] Run Id: [68]
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6992 : Operating System Type [NT]
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6101 : Mapping name: m_CCMS_Creditcard.
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2025-03-14 11:03:30 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6703 : Session [s_m_CCMS_Creditcard] is run by 64-bit Integration Service  [node01], version [10.5.2], build [0322].
+2025-03-14 11:03:30 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2025-03-14 11:03:30 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24058 : Running Partition Group [1].
+2025-03-14 11:03:30 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2025-03-14 11:03:30 : INFO : (8064 | MONITOR) : (IS | IS) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2025-03-14 11:03:30 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2025-03-14 11:03:30 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24003 : Initializing session run.
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_1569 : Server Mode: [ASCII]
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TM_6151 : The session sort order is [Binary].
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_65110 : Current Timezone:[UTC +5:30]
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_65112 : Current Process ID:[8064]
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TM_6156 : Using low precision processing.
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TM_6307 : DTM error log disabled. 
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TE_7022 : TShmWriter: Initialized
+2025-03-14 11:03:30 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : DBG_21075 : Connecting to database [orcl], Type [Oracle], User [C##ccms]
+2025-03-14 11:03:31 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TM_6007 : DTM initialized successfully for session [s_m_CCMS_Creditcard]
+2025-03-14 11:03:31 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2025-03-14 11:03:31 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Fri Mar 14 11:03:31 2025)
+2025-03-14 11:03:31 : INFO : (8064 | PRE-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2025-03-14 11:03:32 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : PETL_24006 : Starting data movement.
+2025-03-14 11:03:32 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [3] lookup caches; [0] on-demand only).
+2025-03-14 11:03:32 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 1416256 bytes and Block size is 65536 bytes.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1) : (IS | IS) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS]: Default sql to create lookup cache: SELECT BRANCH_NAME,BRANCH_CODE FROM CDW_SAPP_D_BRANCH2387333 ORDER BY BRANCH_CODE
+
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS] from [59652323] to [59654000].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS] from [119304646] to [119308288].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_2] has the ID [6].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2) : (IS | IS) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS1]: Default sql to create lookup cache: SELECT CUST_F_NAME,CUST_M_NAME,CUST_L_NAME,CUST_CC_NO,CUST_SSN FROM CDW_SAPP_D_CUSTOMER2387333 ORDER BY CUST_SSN
+
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS1] from [59652323] to [59654000].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS1] from [119304646] to [119308288].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_3] has the ID [7].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3) : (IS | IS) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS2]: Default sql to create lookup cache: SELECT DAY,MONTH,YEAR FROM CDW_SAPP_D_TIME2387333 ORDER BY DAY,MONTH,YEAR
+
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS2] from [59652323] to [59658000].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS2] from [119304646] to [119308288].
+2025-03-14 11:03:32 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [8].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [9].
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : DBG_21438 : Reader: Source is [orcl], Type [Oracle], User [C##ccms]
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : FR_3118 : source [SQ_CDM_SAPP_CREDITCARD] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-14 11:03:32 : INFO : (8064 | TRANSF_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [10].
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [11].
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8147 : Writer: Target is Database [orcl], Type [Oracle], User [C##ccms], Bulk Mode [OFF]
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [12].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21682 : Lookup table row count : 18
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21297 : Lookup cache row count : 18
+
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : CMN_1671 : Created new cache files PMLKUP38_3_0_68W64.[dat/idx] in directory C:\Informatica\10.5.2\server\infa_shared\Cache for Lookup [LKPTRANS].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21641 : LKPTRANS: Index cache size = [59654000], Data cache size = [119308288]
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS{{DSQ}}]. Total errors [0] 
+2025-03-14 11:03:32 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS1].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:READER_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_2:READER_1_1] has the ID [13].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:READER_1_1) : (IS | IS) : node01 : DBG_21438 : Reader: Source is [orcl], Type [Oracle], User [C##ccms]
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table CDW_SAPP_F_CREDIT_CARD2387333 :SQL INSERT statement:
+INSERT INTO CDW_SAPP_F_CREDIT_CARD2387333(CUST_CC_NO,TIMEID_D,TIMEID_M,TIMEID_Y,CUST_SSN,CUST_F_NAME,CUST_M_NAME,CUST_L_NAME,BRANCH_CODE,BRANCH_NAME,TRANSACTION_TYPE,TRANSACTION_VALUE)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8020 : No column marked as primary key for table [CDW_SAPP_F_CREDIT_CARD2387333]. UPDATEs Not Supported.
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [CDW_SAPP_F_CREDIT_CARD2387333]
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8003 : Writer initialization complete.
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8005 : Writer run started.
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Fri Mar 14 11:03:31 2025
+
+Target tables:
+
+     CDW_SAPP_F_CREDIT_CARD2387333
+
+
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : FR_3076 : Skipped over [1] lines.
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Users\Administrator\Downloads\Informatica_CCMS-main\CDM_SAPP_CREDITCARD.txt] : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16019 : Read [5] rows, read [0] error rows for source table [CDM_SAPP_CREDITCARD] instance name [CDM_SAPP_CREDITCARD]
+2025-03-14 11:03:32 : INFO : (8064 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-14 11:03:32 : INFO : (8064 | TRANSF_1_1_1) : (IS | IS) : node01 : TT_11186 : Lookup cache of [LKPTRANS1], previously started by an additional concurrent pipeline, is now needed on demand.
+2025-03-14 11:03:32 : INFO : (8064 | TRANSF_1_1_1) : (IS | IS) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS2].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:READER_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_3:READER_1_1] has the ID [14].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:READER_1_1) : (IS | IS) : node01 : DBG_21438 : Reader: Source is [orcl], Type [Oracle], User [C##ccms]
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:READER_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:TRANSF_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_2:TRANSF_1_1] has the ID [15].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:READER_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:READER_1_1) : (IS | IS) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:READER_1_1) : (IS | IS) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:READER_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:TRANSF_1_1) : (IS | IS) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:TRANSF_1_1) : (IS | IS) : node01 : DBG_21682 : Lookup table row count : 48
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:TRANSF_1_1) : (IS | IS) : node01 : DBG_21297 : Lookup cache row count : 48
+
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:TRANSF_1_1) : (IS | IS) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:TRANSF_1_1) : (IS | IS) : node01 : CMN_1671 : Created new cache files PMLKUP38_4_0_68W64.[dat/idx] in directory C:\Informatica\10.5.2\server\infa_shared\Cache for Lookup [LKPTRANS1].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:TRANSF_1_1) : (IS | IS) : node01 : DBG_21641 : LKPTRANS1: Index cache size = [59654000], Data cache size = [119308288]
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_2:TRANSF_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS1{{DSQ}}]. Total errors [0] 
+2025-03-14 11:03:32 : INFO : (8064 | TRANSF_1_1_1) : (IS | IS) : node01 : TT_11186 : Lookup cache of [LKPTRANS2], previously started by an additional concurrent pipeline, is now needed on demand.
+2025-03-14 11:03:32 : INFO : (8064 | TRANSF_1_1_1) : (IS | IS) : node01 : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:READER_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:TRANSF_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_3:TRANSF_1_1] has the ID [16].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:READER_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:READER_1_1) : (IS | IS) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:READER_1_1) : (IS | IS) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:READER_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:TRANSF_1_1) : (IS | IS) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:TRANSF_1_1) : (IS | IS) : node01 : DBG_21682 : Lookup table row count : 18
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:TRANSF_1_1) : (IS | IS) : node01 : DBG_21297 : Lookup cache row count : 18
+
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:TRANSF_1_1) : (IS | IS) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Fri Mar 14 11:03:32 2025)
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:TRANSF_1_1) : (IS | IS) : node01 : CMN_1671 : Created new cache files PMLKUP38_5_0_68W64.[dat/idx] in directory C:\Informatica\10.5.2\server\infa_shared\Cache for Lookup [LKPTRANS2].
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:TRANSF_1_1) : (IS | IS) : node01 : DBG_21641 : LKPTRANS2: Index cache size = [59658000], Data cache size = [119308288]
+2025-03-14 11:03:32 : INFO : (8064 | LKPDP_3:TRANSF_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS2{{DSQ}}]. Total errors [0] 
+2025-03-14 11:03:32 : INFO : (8064 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_CDM_SAPP_CREDITCARD]. Total errors [0] 
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [CDW_SAPP_F_CREDIT_CARD2387333] at: Fri Mar 14 11:03:31 2025
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [CDW_SAPP_F_CREDIT_CARD2387333] at: Fri Mar 14 11:03:32 2025
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8141 : 
+Commit on end-of-data  Fri Mar 14 11:03:32 2025
+===================================================
+
+WRT_8036 Target: CDW_SAPP_F_CREDIT_CARD2387333 (Instance Name: [LKPTRANS31])
+WRT_8038 Inserted rows - Requested: 4          Applied: 4          Rejected: 0          Affected: 4         
+
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8035 : Load complete time: Fri Mar 14 11:03:32 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: CDW_SAPP_F_CREDIT_CARD2387333 (Instance Name: [LKPTRANS31])
+WRT_8038 Inserted rows - Requested: 4          Applied: 4          Rejected: 0          Affected: 4         
+
+
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2025-03-14 11:03:32 : INFO : (8064 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8006 : Writer run completed.
+2025-03-14 11:03:32 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_CDM_SAPP_CREDITCARD] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_CDM_SAPP_CREDITCARD] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [LKPTRANS31] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_1793 : The index cache size that would hold [18] rows in the lookup table for [LKPTRANS], in memory, is [2800] bytes
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_1792 : The data cache size that would hold [18] rows in the lookup table for [LKPTRANS], in memory, is [16384] bytes
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_1793 : The index cache size that would hold [48] rows in the lookup table for [LKPTRANS1], in memory, is [2800] bytes
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_1792 : The data cache size that would hold [48] rows in the lookup table for [LKPTRANS1], in memory, is [16384] bytes
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_1793 : The index cache size that would hold [18] rows in the lookup table for [LKPTRANS2], in memory, is [6000] bytes
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : CMN_1792 : The data cache size that would hold [18] rows in the lookup table for [LKPTRANS2], in memory, is [16384] bytes
+2025-03-14 11:03:33 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Fri Mar 14 11:03:33 2025)
+2025-03-14 11:03:33 : INFO : (8064 | POST-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [17].
+2025-03-14 11:03:33 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Fri Mar 14 11:03:33 2025)
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TE_7216 : Deleting cache files [PMLKUP38_3_0_68W64] for transformation [LKPTRANS].
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TE_7216 : Deleting cache files [PMLKUP38_4_0_68W64] for transformation [LKPTRANS1].
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TE_7216 : Deleting cache files [PMLKUP38_5_0_68W64] for transformation [LKPTRANS2].
+2025-03-14 11:03:33 : INFO : (8064 | MAPPING) : (IS | IS) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2025-03-14 11:03:33 : INFO : (8064 | MANAGER) : (IS | IS) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2025-03-14 11:03:33 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : PETL_24012 : Session run completed successfully.
+2025-03-14 11:03:33 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2025-03-14 11:03:33 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6252 : Source Load Summary.
+2025-03-14 11:03:33 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SQ_CDM_SAPP_CREDITCARD] (Instance Name: [SQ_CDM_SAPP_CREDITCARD])
+	 Output Rows [5], Affected Rows [5], Applied Rows [5], Rejected Rows [0]
+2025-03-14 11:03:33 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6253 : Target Load Summary.
+2025-03-14 11:03:33 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [LKPTRANS3] (Instance Name: [LKPTRANS31])
+	 Output Rows [4], Affected Rows [4], Applied Rows [4], Rejected Rows [0]
+2025-03-14 11:03:33 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6023 : 
+===================================================
+
+2025-03-14 11:03:33 : INFO : (8064 | DIRECTOR) : (IS | IS) : node01 : TM_6020 : Session [s_m_CCMS_Creditcard] completed at [Fri Mar 14 11:03:33 2025].
